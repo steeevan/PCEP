@@ -1,0 +1,26 @@
+integer_var = 5
+float_var = 2.2
+print(integer_var + float_var)
+
+long_var = 9^9
+complex_var = 3 + 4j
+print(long_var*complex_var)
+
+string_var = "Caden Ho"
+print(string_var[0:6])
+string_var2 = "Caden, welcome to Python class!"
+print(string_var2)
+
+num_list = [1,2,3,4,5]
+num_list.append(1.2)
+print(num_list)
+
+fruit_tuple = ("mango", "banana", "apple")
+print(fruit_tuple[2])
+
+student_dict = {"name":"Caden","age":"13","grade":"8th","city":"Chino Hills"}
+print(student_dict["age"])
+
+bool_var1 = True
+bool_var2 = False
+print(bool_var1)
