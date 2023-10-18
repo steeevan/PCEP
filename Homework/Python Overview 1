@@ -1,0 +1,47 @@
+#1
+numbers_list = [10, 20, 30, 40, 50]
+
+def average(numbers):
+    if len(numbers) == 0:
+        return 0
+    total = sum(numbers)
+    average = total / len(numbers)
+    return average
+A = average(numbers_list)
+print(A)
+
+
+#2
+num1 = 2
+num2 = 13
+
+def Bigger(num1, num2):
+    if num1 > num2:
+        return num1
+    else:
+        return num2
+B = Bigger(num1, num2)
+print(B)
+
+
+#3
+string1 = "pop"
+string2 = "ooga"
+
+def P(input_string):
+    String = input_string.replace(" ", "").lower()
+    return String == String[::-1]
+print(P(string1))
+print(P(string2))
+
+
+#4
+def RS(input_string):
+    return input_string[::-1]
+Original = "OOGA"
+Reversed = RS(Original)
+print(Original)
+print(Reversed)
+
+
+#5
